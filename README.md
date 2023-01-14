@@ -79,6 +79,14 @@ remove_source_code_for_prebuilt_frameworks!
 ````ruby
 set_local_binary_cache_path     '/Users/xxx/podBinaryCache'
 ````
+#### 5. 设置二进制默认缓存地址，开启后默认地址为：/Users/xxx/Desktop/podCache,方便打包机读取二进制缓存地址，如果用set_local_binary_cache_path设置的地址，会在其他电脑不匹配
+
+```ruby
+set_default_desktop_cache_path!  
+```
+
+## 
+
 ## 源码调试
 
 在有dsym的情况下，可以直接进行源码调试功能
