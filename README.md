@@ -95,7 +95,7 @@ set_default_desktop_cache_path!
 
 https://github.com/leavez/cocoapods-binary
 
-https://github.com/pdcodeunder/cocoapods-ppbuild
+https://github.com/Jacky-LinPeng/cocoapods-xlbuild
 
 ## License
 

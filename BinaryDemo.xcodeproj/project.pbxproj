@@ -14,7 +14,7 @@
 		4883656728ACCC0E00FC9557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4883656628ACCC0E00FC9557 /* Assets.xcassets */; };
 		4883656A28ACCC0E00FC9557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4883656828ACCC0E00FC9557 /* LaunchScreen.storyboard */; };
 		4883656D28ACCC0E00FC9557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4883656C28ACCC0E00FC9557 /* main.m */; };
-		C301C6CA70C307060CBFED4A /* Pods_BinaryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92ADEE0CC487E0FB1FC9739 /* Pods_BinaryDemo.framework */; };
+		91E9501CB4E6BAB15AD9B26B /* libPods-BinaryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 627E10619718156F9DB7D7DC /* libPods-BinaryDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		4883656928ACCC0E00FC9557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4883656B28ACCC0E00FC9557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4883656C28ACCC0E00FC9557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		627E10619718156F9DB7D7DC /* libPods-BinaryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BinaryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D31A84763870CAD015BE51 /* Pods-BinaryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryDemo.debug.xcconfig"; path = "Target Support Files/Pods-BinaryDemo/Pods-BinaryDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C92ADEE0CC487E0FB1FC9739 /* Pods_BinaryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinaryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F482216869528FC22D9C5B7C /* Pods-BinaryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryDemo.release.xcconfig"; path = "Target Support Files/Pods-BinaryDemo/Pods-BinaryDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C301C6CA70C307060CBFED4A /* Pods_BinaryDemo.framework in Frameworks */,
+				91E9501CB4E6BAB15AD9B26B /* libPods-BinaryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		CB831A910DB0DEA439FE3118 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C92ADEE0CC487E0FB1FC9739 /* Pods_BinaryDemo.framework */,
+				627E10619718156F9DB7D7DC /* libPods-BinaryDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
