@@ -1,7 +1,3 @@
----
-typora-root-url: ./效果图
----
-
 # cocoapods-zjbinary
 
 通过提前编译组件形成二进制文件，来加快编译速度。支持源码和二进制切换，保留源码，可以进行代码查看。支持缓存，可以快速从缓存拉取二进制组件
@@ -16,21 +12,21 @@ typora-root-url: ./效果图
 
 ##### 1 .a静态库
 
-![运行截图](/运行截图.png)
+![运行截图](Pic/运行截图.png)
 
-![工程结构](/工程结构.png)
+![工程结构](Pic/工程结构.png)
 
 ##### 2.framework 静态库
 
-![framework](/framework.png)
+![framework](Pic/framework.png)
 
-![framework结构](/framework结构.png)
+![framework结构](Pic/framework结构.png)
 
 #### 缓存的目录结构
 
-![缓存目录结构](/缓存目录结构.png)
+![缓存目录结构](Pic/缓存目录结构.png)
 
-![静态库](/静态库.png)
+![静态库](Pic/静态库.png)
 
 
 ## 插件安装
