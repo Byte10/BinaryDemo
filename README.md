@@ -31,7 +31,7 @@
 
 ## 插件安装
 ````shell
-$ gem install cocoapods-zjbuild
+$ gem install cocoapods-zjbinary
 ````
 
 ## 使用
