@@ -40,7 +40,7 @@ $ gem install cocoapods-zjbuild
 #### 1.1 使用静态库.a 编译：（cocoapods 日常不添加use_frameworks的情况）
 
 ```ruby
-plugin 'cocoapods-zjbuild'
+plugin 'cocoapods-zjbinary'
 use_static_binary!
 ```
 
@@ -48,7 +48,7 @@ use_static_binary!
 
 #### 1.2 使用静态库 framewrok编译：
 ````ruby
-plugin 'cocoapods-zjbuild'
+plugin 'cocoapods-zjbinary'
 use_frameworks! :linkage => :static
 use_static_binary!
 ````
@@ -57,7 +57,7 @@ use_static_binary!
 #### 1.3使用静态库 framewrok编译：
 
 ````ruby
-plugin 'cocoapods-zjbuild'
+plugin 'cocoapods-zjbinary'
 use_frameworks!
 use_dynamic_binary!
 ````
